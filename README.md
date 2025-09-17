@@ -124,7 +124,9 @@ Esta é a parte principal do controle do sistema:
       * `delay(50)`: Um atraso entre as leituras dos sensores, permitindo que o sistema tenha um intervalo de tempo para processar as informações.
 
 -----
-
+### Exemplo da montagem realizada
+![Texto alternativo]([URL_da_imagem](https://i.postimg.cc/KvJ9Qfkd/Whats-App-Image-2025-09-17-at-19-33-48.jpg)) ![Texto alternativo](URL_da_imagem) ![Texto alternativo](URL_da_imagem)
+-----
 ### Como Usar
 
 1.  Monte o circuito conectando os LDRs e o servo ao Arduino conforme o código.
