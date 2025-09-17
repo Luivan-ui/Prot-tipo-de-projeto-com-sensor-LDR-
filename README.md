@@ -1,7 +1,7 @@
 
 -----
 
-# Projeto de Painel Solar com Rastreamento de Luz
+# Projeto de Painel Solar com Rastreamento de Luz ☀️
 
 ### Descrição do Projeto
 
