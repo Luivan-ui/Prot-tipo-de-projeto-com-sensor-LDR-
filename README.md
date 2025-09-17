@@ -1,4 +1,3 @@
-O seu projeto de painel solar com rastreamento de luz é uma excelente forma de aplicar os conceitos de eletrônica e programação. A documentação a seguir, no formato **Markdown**, pode ser usada diretamente no GitHub para que vocês possam compartilhar o projeto de forma clara e profissional.
 
 -----
 
