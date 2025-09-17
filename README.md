@@ -125,7 +125,8 @@ Esta é a parte principal do controle do sistema:
 
 -----
 ### Exemplo da montagem realizada
-![Texto alternativo](https://i.postimg.cc/KvJ9Qfkd/Whats-App-Image-2025-09-17-at-19-33-48.jpg)
+![Imagem de exemplo 1](https://i.postimg.cc/KvJ9Qfkd/Whats-App-Image-2025-09-17-at-19-33-48.jpg)
+<img src="[URL_da_imagem](https://i.postimg.cc/KvJ9Qfkd/Whats-App-Image-2025-09-17-at-19-33-48.jpg)" alt="Texto alternativo" width="300" height="200" />
 -----
 ### Como Usar
 
