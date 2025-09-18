@@ -124,6 +124,29 @@ Esta é a parte principal do controle do sistema:
       * `delay(50)`: Um atraso entre as leituras dos sensores, permitindo que o sistema tenha um intervalo de tempo para processar as informações.
 
 -----
+### Dificuldades no Desenvolvimento ⚠️
+
+Durante o desenvolvimento deste projeto de rastreamento de luz com painel solar, várias dificuldades técnicas e conceituais surgiram, exigindo ajustes e testes constantes. Abaixo estão algumas das principais dificuldades encontradas:
+
+1. Precisão e Sensibilidade dos Sensores LDR
+
+   * A calibração dos sensores LDR (Light Dependent Resistor) foi um dos maiores desafios. Como os sensores podem ser muito sensíveis a pequenas variações de luz, a diferença de intensidade pode ser mínima, o que causa uma leitura imprecisa. Para garantir que o sistema respondesse apenas a variações significativas de luz, foi necessário ajustar a sensibilidade no código.
+
+   * Além disso, a luz ambiente interfere nas leituras dos LDRs, tornando difícil distinguir entre a luz que está sendo rastreada e a luz ambiente. Para resolver isso, foi preciso ajustar as tolerâncias de leitura, limitando as variações que o sistema considera significativas o suficiente para mover o servo motor.
+
+2. Cálculo da Diferença de Luz
+
+   * O cálculo da diferença de luz entre os dois sensores LDR nem sempre foi direto. A leitura dos sensores não foi constante e estava sujeita a várias fontes de interferência, como luz indireta refletida de outras superfícies ou variações de iluminação nas proximidades.
+
+   * Inicialmente, a diferença calculada entre os sensores era muito sensível a pequenas mudanças de luz, fazendo com que o servo motor se movesse de maneira errática. Para mitigar isso, foi necessário definir um valor de tolerância, ou um limite mínimo para a diferença entre as leituras, que fosse grande o suficiente para garantir que o sistema só movesse o servo quando houvesse uma mudança significativa na intensidade de luz.
+
+3. Variação da Intensidade de Luz
+
+   * A intensidade da luz também afetou significativamente o desempenho do sistema. Quando a luz estava muito intensa, o servo motor tendia a se mover rapidamente e até errar a direção devido a pequenas flutuações na leitura do sensor. Já em ambientes com luz fraca, o movimento do servo era quase imperceptível, o que prejudicava a eficácia do rastreamento.
+
+
+-----
+
 ### Exemplo da montagem realizada
 
 <img src="https://i.postimg.cc/KvJ9Qfkd/Whats-App-Image-2025-09-17-at-19-33-48.jpg" alt="Montagem 1" width="300" height="500" /> <img src="https://i.postimg.cc/dV35fCGD/Whats-App-Image-2025-09-17-at-19-33-48-1.jpg" alt="Montagem 2" width="300" height="500" />
